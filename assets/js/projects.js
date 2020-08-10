@@ -13,20 +13,20 @@ let render_projects = (slug) => {
         {
             image: 'assets/images/mentors.jpg',
             link: 'https://github.com/abhn/Mporter',
-            title: 'Mporter',
+            title: 'Gagubook',
             demo: 'https://mporter.co',
-            technologies: ['Flask', 'Celery', 'Python'],
-            description: "Flask web application for easy reporting updates to one's mentor. Multi-user support, easy to deploy and use.",
-            categories: ['featured', 'webdev']
+            technologies: ['Android', 'Retrofit', 'Java'],
+            description: "DB에 등록된 가구 중 매장이 판매하고 있는 제품의 이미지와 정보 API로 받아서 태블릿으로 고객들에게 정보를 보여주는 앱",
+            categories: ['featured', 'native']
         },
         {
             image: 'assets/images/mobile-landscape.jpg',
             link: 'https://github.com/abhn/Wall-E',
-            title: 'Wall-E',
+            title: 'Jobs Scrap',
             demo: 'http://wall-e-jekyll.github.io/',
-            technologies: ['Semantic UI', 'Jekyll'],
-            description: "A modern Jekyll theme with grid frontpage, beautiful typography, mobile responsive, made with Semantic UI.",
-            categories: ['featured', 'webdev']
+            technologies: ['Python', 'Flask', 'Beautifulsoup'],
+            description: "stackoverflow, weworkremotely,remotreok 세 개의 사이트에서 구인글을 스크랩해서 보여주는 사이트",
+            categories: ['featured', 'python']
         },
         {
             image: 'assets/images/collage.jpg',
