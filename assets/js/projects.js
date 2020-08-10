@@ -14,37 +14,37 @@ let render_projects = (slug) => {
             image: 'assets/images/mentors.jpg',
             link: 'https://github.com/abhn/Mporter',
             title: 'Gagubook',
-            demo: 'https://mporter.co',
+            demo: false,
             technologies: ['Android', 'Retrofit', 'Java'],
             description: "DB에 등록된 가구 중 매장이 판매하고 있는 제품의 이미지와 정보 API로 받아서 태블릿으로 고객들에게 정보를 보여주는 앱",
             categories: ['featured', 'native']
         },
         {
             image: 'assets/images/mobile-landscape.jpg',
-            link: 'https://github.com/abhn/Wall-E',
+            link: 'https://repl.it/@JeongByeonghun/Day-Thirteen-and-Fourteen#main.py',
             title: 'Jobs Scrap',
-            demo: 'http://wall-e-jekyll.github.io/',
+            demo: false,
             technologies: ['Python', 'Flask', 'Beautifulsoup'],
-            description: "stackoverflow, weworkremotely,remotreok 세 개의 사이트에서 구인글을 스크랩해서 보여주는 사이트",
+            description: "stackoverflow,  weworkremotely,  remotreok 세 개의 사이트에서 구인글을 스크랩해서 보여주고 csv파일로 다운로드 할 수 있는 사이트	",
             categories: ['featured', 'python']
         },
         {
             image: 'assets/images/collage.jpg',
             link: 'https://github.com/abhn/Marvel',
-            title: 'Marvel',
+            title: '3줄 뉴스',
             demo: false,
-            technologies: ['Android', 'OpenCV'],
-            description: "Attendance marking tool that uses face recognition for marking attendance and firebase for tracking and analytics.",
-            categories: ['featured', 'native']
+            technologies: ['Android', 'Beautifulsoup', 'Python'],
+            description: "단어를 검색하면 관련된 네이버API를 이용해 뉴스를 스크랩한 후 TextRank 알고리즘을 이용해 3줄 요약을 볼 수 있는 앱",
+            categories: ['native', 'java', 'python']
         },
         {
             image: 'assets/images/mpw.jpg',
             link: 'https://github.com/abhn/mpw',
-            title: 'Master Password',
-            demo: 'https://www.nagekar.com/mpw',
-            technologies: ['Semantic UI', 'CSS3'],
-            description: "Master Password is an ingenious password solution that makes your passwords truly impossible to lose.",
-            categories: ['featured', 'security']
+            title: 'Jjayo',
+            demo: false,
+            technologies: ['Android', 'Glide', Java],
+            description: "중국어과 학생들을 위해 시간이 날 때 마다 중국어를 공부 할 수 있게 퀴즈와 따라 그리기를 넣은 앱",
+            categories: ['native']
         },
         {
             image: 'assets/images/social-share-count.jpeg',
