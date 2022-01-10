@@ -46,6 +46,15 @@ let render_projects = (slug) => {
             description: "중국어과 학생들을 위해 시간이 날 때 마다 중국어를 공부 할 수 있게 간단한 퀴즈와 따라 그리기를 넣은 앱",
             categories: ['native']
         },
+		{
+            image: 'assets/images/jjayo.png',
+            link: 'https://github.com/Jeong-Byeong-hun/KotlinBasic/tree/main/KotlinCode/kotlinBmiCalculator',
+            title: 'BMI 계산기',
+            demo: false,
+            technologies: ['Android', 'Navigation', 'Kotlin'],
+            description: "navigation을 이용한 프래그먼트 전환",
+            categories: ['native', 'kotlin']
+        }
        
       
        
