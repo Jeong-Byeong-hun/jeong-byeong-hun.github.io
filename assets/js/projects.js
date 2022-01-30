@@ -15,9 +15,9 @@ let render_projects = (slug) => {
             link: 'https://github.com/Jeong-Byeong-hun/gagubook',
             title: 'Gagubook',
             demo: false,
-            technologies: ['Android', 'Retrofit', 'Java'],
+            technologies: ['Android', 'Retrofit2', 'Java'],
             description: "DB에 등록된 가구 중 매장이 판매하고 있는 제품의 이미지와 정보 API로 받아서 태블릿으로 고객들에게 정보를 보여주는 앱",
-            categories: ['featured', 'native']
+            categories: ['featured', 'java']
         },
         {
             image: 'assets/images/remotejobs.png',
@@ -35,7 +35,7 @@ let render_projects = (slug) => {
             demo: 'https://github.com/abhn/Marvel',
             technologies: ['Android', 'Beautifulsoup', 'Python'],
             description: "단어를 검색하면 관련된 네이버API를 이용해 뉴스를 스크랩한 후 TextRank 알고리즘을 이용해 3줄 요약을 볼 수 있는 앱",
-            categories: ['native', 'java', 'python']
+            categories: ['java', 'python']
         },
         {
             image: 'assets/images/jjayo.png',
@@ -44,16 +44,16 @@ let render_projects = (slug) => {
             demo: false,
             technologies: ['Android', 'Glide', 'Java'],
             description: "중국어과 학생들을 위해 시간이 날 때 마다 중국어를 공부 할 수 있게 간단한 퀴즈와 따라 그리기를 넣은 앱",
-            categories: ['native']
+            categories: ['java']
         },
 		{
-            image: 'assets/images/jjayo.png',
-            link: 'https://github.com/Jeong-Byeong-hun/KotlinBasic/tree/main/KotlinCode/kotlinBmiCalculator',
-            title: 'BMI 계산기',
+            image: 'assets/images/kotlin.png',
+            link: 'https://github.com/Jeong-Byeong-hun/KotlinBasic',
+            title: 'Kotlin Basic',
             demo: false,
             technologies: ['Android', 'Navigation', 'Kotlin'],
-            description: "navigation을 이용한 프래그먼트 전환",
-            categories: ['native', 'kotlin']
+            description: "코틀린 책을 보면서 책 내용에서 바꿔 만든 기초 앱",
+            categories: ['kotlin']
         }
        
       
