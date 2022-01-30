@@ -51,7 +51,7 @@ let render_projects = (slug) => {
             link: 'https://github.com/Jeong-Byeong-hun/KotlinBasic',
             title: 'Kotlin Basic',
             demo: false,
-            technologies: ['Android', 'Navigation', 'Kotlin'],
+            technologies: ['Android', 'Kotlin'],
             description: "코틀린 책을 보면서 책 내용에서 바꿔 만든 기초 앱",
             categories: ['kotlin']
         }
